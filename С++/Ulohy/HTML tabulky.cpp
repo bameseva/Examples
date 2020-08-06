@@ -23,6 +23,15 @@
 using namespace std;
 #endif /* __PROGTEST__ */
 
+/*
+Úkolem je realizovat sadu tříd, které budou implementovat tabulky podobné tabulkám v HTML.
+
+Předpokládáme, že naše zjednodušená tabulka CTable je tvořená zadaným počtem řádků a sloupců, ty jsou vyplněné při vytváření instance. 
+V každé buňce je buď prázdno (CEmpty), text (CText) nebo obrázek (CImage). Tabulka dokáže měnit obsah svých buněk a dokáže se zobrazit. 
+Při zobrazení se tabulka velikostí přizpůsobí obsahu svých buněk (velikost se roztáhne tak, aby v žádné buňce nedošlo k ořezání).
+*/
+
+
 class AbstractTableCell;
 
 class CText;

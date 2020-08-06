@@ -1,0 +1,2 @@
+Jednalo se o implementaci konceptů znalostních systému (fuzzy množiny, neurčitost) do školního frameworku.
+Soubory jsem spustila v tomto frameworku, které simulovali činnost usera v hře (frameworku).

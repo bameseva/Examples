@@ -22,6 +22,11 @@
 using namespace std;
 
 #ifndef __PROGTEST__
+
+/*
+Úkolem je vytvořit třídy CMailBox a CMail, které budou simulovat poštovní schránku na poštovním serveru.
+ */
+
 //Je jednoduchá třída reprezentující datum a čas.
 class CTimeStamp
 {

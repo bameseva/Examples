@@ -22,6 +22,16 @@
 using namespace std;
 #endif /* __PROGTEST__ */
 
+
+/*
+Úkolem je vytvořit šablonu třídy CSearch. Tato šablona bude sloužit pro vyhledávání výskytu hledané sekvence dat (hledaných sekvencí může být i více než jedna) uvnitř zadané prohledávané sekvence dat. 
+Úkolem je najít všechny výskyty hledaných sekvencí dat v prohledávané sekvenci a vrátit, které hledané sekvence byly nalezené. Šablona bude použitelná např. pro řešení následujících úloh:
+
+-hledáme zadaná klíčová slova (jedno nebo více klíčových slov) v zadaném textu. Tedy hledáme sekvence znaků uvnitř jiné sekvence znaků. Prvkem sekvence je zde znak (char), sekvencí je řetězec (string),
+-hledáme posloupnost čísel (jednu nebo více posloupností) v dlouhém seznamu čísel (prohledávaný seznam čísel). Prvkem sekvence je zde celé číslo (int), sekvencí je libovolný sekvenční kontejner STL, tedy například vector<int>, deque<int>, forward_list<int>, list<int>,
+-hledáme posloupnost (posloupnosti slov) slov v seznamu slov. Prvkem sekvence je zde slovo (string), sekvencí je například vector<string> nebo list<string>.
+*/
+
 template <typename _Type, typename _Comparator = equal_to<typename _Type::value_type> >
 class CSearch
 {

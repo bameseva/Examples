@@ -19,6 +19,17 @@
 using namespace std;
 #endif /* __PROGTEST__ */
 
+/*
+Úkolem je realizovat třídu CBigInt, která bude reprezentovat celá čísla (kladná i záporná) s (téměř) neomezeným rozsahem.
+
+Celá čísla typu int, long long int, ... mají fixní velikost, tedy omezený rozsah. Pokud potřebujeme výpočty ve větším rozsahu hodnot, musíme si pro ně vytvořit vlastní datový typ. 
+Třída implementující tento datový typ bude číslo ukládat ve vnitřní reprezentaci, kterou bude podle potřeby natahovat (alokovat větší prostor). Vaším úkolem je takovou třídu realizovat. 
+Pro zjednodušení implementace jsou následující omezení:
+
+Ukládáme pouze celá čísla (kladná, nulu i záporná). Nezabýváme se desetinnou částí.
+Z matematických operací implementujeme pouze sčítání, násobení a porovnávání.
+*/
+
 class CBigInt
 {
 public:

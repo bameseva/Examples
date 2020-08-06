@@ -15,6 +15,16 @@
 using namespace std;
 #endif /* __PROGTEST__ */
 
+/*
+Úkolem je realizovat třídu CTaxRegister, která bude implementovat
+
+Pro plánované důslednější potírání daňových úniků je potřeba vybudovat databázi všech obyvatel, ve které budou archivované jejích příjmy a výdaje. 
+Předpokládáme, že v databázi je zaveden každý občan v okamžiku jeho narození. Od té doby se mu počítají všechny příjmy a všechny výdaje. 
+Záznam je z databáze odstraněn v okamžiku jeho úmrtí. Občan je identifikován svým jménem, adresou a číslem účtu. Číslo účtu je unikátní přes celou databázi. 
+Jména a adresy se mohou opakovat, ale dvojice (jméno, adresa) je opět v databázi unikátní. 
+Tedy v databázi může být mnoho jmen Jan Novak, mnoho lidí může mít adresu Hlavni 60, ale Jan Novak bydlící na adrese Hlavni 60 může být v databázi pouze jeden.
+*/
+
 class Taxpayer {
 public:
 	Taxpayer() 
